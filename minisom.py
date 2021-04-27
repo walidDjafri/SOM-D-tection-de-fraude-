@@ -262,5 +262,3 @@ class TestMinisom:
         for w in som.weights:
             assert_array_equal(w[0], array([1.0, .0]))
 
-
-
